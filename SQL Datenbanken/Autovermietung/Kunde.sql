@@ -1,0 +1,9 @@
+CREATE TABLE Kunde (
+KundenNr INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+Vorname TEXT,
+Nachname Text,
+Strasse TEXT,
+HausNr TEXT,
+Plz TEXT,
+Ort TEXT
+);

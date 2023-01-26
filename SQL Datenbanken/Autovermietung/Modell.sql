@@ -1,0 +1,7 @@
+CREATE TABLE Modell (
+ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+Bezeichnung TEXT,
+LeistungPS TEXT,
+AnzahlTueren TEXT,
+Hersteller INTEGER NOT NULL REFERENCES Hersteller(id)
+);
