@@ -14,20 +14,20 @@ public class GastDao extends Exception {
         GastMap.put(GastNr, gast);
     }
 
-    public Gast findById(int gastNr) throws GastNichtVorhandenExeption{
-        if (GastMap.containsKey(GastNr)) {
-            return ;
-        }
-        throw new GastNichtVorhandenExeption();
-    }
+  // public Gast findById(int gastNr) throws GastNichtVorhandenExeption{
+  //     if (GastMap.containsKey(GastNr)) {
+  //         return ;
+  //     }
+  //     throw new GastNichtVorhandenExeption();
+  // }
 
-    public List<Gast> findAll(){
-        for(GastNr : GastMap.keySet())
-        {
-            System.out.print("Key: " + GastNr + " - ");
-            System.out.print("Value: " + GastMap.get(GastNr) + "\n");
-        }
-    }
+  // public List<Gast> findAll(){
+  //     for(GastNr : GastMap.keySet())
+  //     {
+  //         System.out.print("Key: " + GastNr + " - ");
+  //         System.out.print("Value: " + GastMap.get(GastNr) + "\n");
+  //     }
+  // }
 
 
 }
