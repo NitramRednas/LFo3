@@ -19,6 +19,4 @@ public class ZuschauerDao extends Exception {
             }
             throw new SitzplatzAngabeInvalideExeption();
         }
-
-
 }

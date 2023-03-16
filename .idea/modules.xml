@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/Hotel/Hotel.iml" filepath="$PROJECT_DIR$/Hotel/Hotel.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LF03.iml" filepath="$PROJECT_DIR$/.idea/LF03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Regal/Regal.iml" filepath="$PROJECT_DIR$/Regal/Regal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingeltonPatternInDao/SingeltonPatternInDao.iml" filepath="$PROJECT_DIR$/SingeltonPatternInDao/SingeltonPatternInDao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singletonpattern/Singletonpattern.iml" filepath="$PROJECT_DIR$/Singletonpattern/Singletonpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singletonpattern/SingletonpatterninDao.iml" filepath="$PROJECT_DIR$/Singletonpattern/SingletonpatterninDao.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stadion/Stadion.iml" filepath="$PROJECT_DIR$/Stadion/Stadion.iml" />
       <module fileurl="file://$PROJECT_DIR$/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/interfaces/interfaces.iml" />
     </modules>
