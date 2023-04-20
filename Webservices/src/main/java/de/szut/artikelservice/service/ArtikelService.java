@@ -26,9 +26,7 @@ public class ArtikelService {
     }
 
     public List<Artikel> read(){
-        for (long i = 0; i < read().size(); i++){
-            System.out.println(artikelDao.findById(i));
-        }return null;
+        return artikelDao.findAll();
     }
 
     public Artikel update(Artikel artikel){
