@@ -27,5 +27,5 @@ Content-Type:application/json
 }
 
 ### Artikel mit der ID = 3 löschen
-DELETE http://localhost:8080/myappdata/articles/3
+DELETE http://localhost:8080/myappdata/articles/1
 Accept: : application/json

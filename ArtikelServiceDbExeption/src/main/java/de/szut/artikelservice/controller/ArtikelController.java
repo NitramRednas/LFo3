@@ -16,27 +16,27 @@ public class ArtikelController {
     private ArtikelService artikelService;
 
     @GetMapping
-    public ResponseEntity<List<Artikel>> getArtikel() {
+    public List<Artikel> getArtikel() {
         List<Artikel> artikelList = artikelService.read();
-        return new ResponseEntity<>(artikelList, HttpStatus.OK);
+        return artikelService.read();
     }
 
     @GetMapping(value= "/{id}")
-    public ResponseEntity<Artikel> getArtikel(@PathVariable long id){
+    public Artikel getArtikel(@PathVariable long id){
         Artikel artikel = artikelService.read(id);
-        return new ResponseEntity<>(artikel, HttpStatus.OK);
+        return artikelService.read(id);
     }
 
     @PostMapping
-    public ResponseEntity<Artikel> addArtikel(@RequestBody Artikel request){
+    public Artikel addArtikel(@RequestBody Artikel request){
         Artikel artikel = artikelService.add(request);
-        return new ResponseEntity<>(artikel, HttpStatus.OK);
+        return artikelService.read(artikel.getId());
     }
 
     @PutMapping
-    public ResponseEntity<?> updateArtikel(@RequestBody Artikel request){
+    public Artikel updateArtikel(@RequestBody Artikel request){
         artikelService.update(request);
-        return new ResponseEntity<>(HttpStatus.OK);
+        return artikelService.read(request.getId());
     }
 
     @DeleteMapping(value = "/{id}")
